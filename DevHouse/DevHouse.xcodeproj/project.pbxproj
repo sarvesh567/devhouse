@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1651439ADF5C2856334CED96 /* Pods_DevHouseAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB8DD522F274DAB6D62A4DA /* Pods_DevHouseAdmin.framework */; };
+		99B794734508B34A531566AB /* Pods_DevHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52446119182B9F4EE5BAA6F0 /* Pods_DevHouse.framework */; };
 		F6AC43F326F24BE4008A8ED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AC43F226F24BE4008A8ED8 /* AppDelegate.swift */; };
 		F6AC43F526F24BE4008A8ED8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AC43F426F24BE4008A8ED8 /* SceneDelegate.swift */; };
 		F6AC43F726F24BE4008A8ED8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AC43F626F24BE4008A8ED8 /* ViewController.swift */; };
@@ -19,9 +21,19 @@
 		F6AC441426F24BFD008A8ED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6AC441226F24BFD008A8ED8 /* Main.storyboard */; };
 		F6AC441926F24C01008A8ED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6AC441726F24C01008A8ED8 /* LaunchScreen.storyboard */; };
 		F6AC441F26F24C1E008A8ED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6AC43FB26F24BE5008A8ED8 /* Assets.xcassets */; };
+		F6AC442126F25A3D008A8ED8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6AC442026F25A3D008A8ED8 /* GoogleService-Info.plist */; };
+		F6AC442326F25BCE008A8ED8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6AC442226F25BCE008A8ED8 /* GoogleService-Info.plist */; };
+		F6AC442526F2EEE0008A8ED8 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AC442426F2EEE0008A8ED8 /* CategoryModel.swift */; };
+		F6AC442726F2FA40008A8ED8 /* FirstoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AC442626F2FA40008A8ED8 /* FirstoreService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1EB8DD522F274DAB6D62A4DA /* Pods_DevHouseAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevHouseAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE0AB736E5A6852B24283C0 /* Pods-DevHouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevHouse.debug.xcconfig"; path = "Target Support Files/Pods-DevHouse/Pods-DevHouse.debug.xcconfig"; sourceTree = "<group>"; };
+		52446119182B9F4EE5BAA6F0 /* Pods_DevHouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevHouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7221344C043AE75794C0B5 /* Pods-DevHouseAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevHouseAdmin.debug.xcconfig"; path = "Target Support Files/Pods-DevHouseAdmin/Pods-DevHouseAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+		9BD4CD68AE552A690FF850E2 /* Pods-DevHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevHouse.release.xcconfig"; path = "Target Support Files/Pods-DevHouse/Pods-DevHouse.release.xcconfig"; sourceTree = "<group>"; };
+		9D0FF4E1DB87A97601167F98 /* Pods-DevHouseAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevHouseAdmin.release.xcconfig"; path = "Target Support Files/Pods-DevHouseAdmin/Pods-DevHouseAdmin.release.xcconfig"; sourceTree = "<group>"; };
 		F6AC43EF26F24BE4008A8ED8 /* DevHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6AC43F226F24BE4008A8ED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6AC43F426F24BE4008A8ED8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +49,10 @@
 		F6AC441326F24BFD008A8ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6AC441826F24C01008A8ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6AC441A26F24C01008A8ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6AC442026F25A3D008A8ED8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F6AC442226F25BCE008A8ED8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F6AC442426F2EEE0008A8ED8 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		F6AC442626F2FA40008A8ED8 /* FirstoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstoreService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99B794734508B34A531566AB /* Pods_DevHouse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,12 +68,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1651439ADF5C2856334CED96 /* Pods_DevHouseAdmin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D5F26EB963CDA7C3EED1A090 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52446119182B9F4EE5BAA6F0 /* Pods_DevHouse.framework */,
+				1EB8DD522F274DAB6D62A4DA /* Pods_DevHouseAdmin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4411C2085A48ADC0A70CBF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FE0AB736E5A6852B24283C0 /* Pods-DevHouse.debug.xcconfig */,
+				9BD4CD68AE552A690FF850E2 /* Pods-DevHouse.release.xcconfig */,
+				6D7221344C043AE75794C0B5 /* Pods-DevHouseAdmin.debug.xcconfig */,
+				9D0FF4E1DB87A97601167F98 /* Pods-DevHouseAdmin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F6AC43E626F24BE3008A8ED8 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +102,8 @@
 				F6AC43F126F24BE4008A8ED8 /* DevHouse */,
 				F6AC440B26F24BFD008A8ED8 /* DevHouseAdmin */,
 				F6AC43F026F24BE4008A8ED8 /* Products */,
+				E4411C2085A48ADC0A70CBF5 /* Pods */,
+				D5F26EB963CDA7C3EED1A090 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,12 +119,15 @@
 		F6AC43F126F24BE4008A8ED8 /* DevHouse */ = {
 			isa = PBXGroup;
 			children = (
+				F6AC442426F2EEE0008A8ED8 /* CategoryModel.swift */,
 				F6AC43F226F24BE4008A8ED8 /* AppDelegate.swift */,
 				F6AC43F426F24BE4008A8ED8 /* SceneDelegate.swift */,
 				F6AC43F626F24BE4008A8ED8 /* ViewController.swift */,
 				F6AC43F826F24BE4008A8ED8 /* Main.storyboard */,
 				F6AC43FD26F24BE5008A8ED8 /* LaunchScreen.storyboard */,
+				F6AC442026F25A3D008A8ED8 /* GoogleService-Info.plist */,
 				F6AC440026F24BE5008A8ED8 /* Info.plist */,
+				F6AC442626F2FA40008A8ED8 /* FirstoreService.swift */,
 			);
 			path = DevHouse;
 			sourceTree = "<group>";
@@ -97,6 +140,7 @@
 				F6AC441026F24BFD008A8ED8 /* ViewController.swift */,
 				F6AC441226F24BFD008A8ED8 /* Main.storyboard */,
 				F6AC441726F24C01008A8ED8 /* LaunchScreen.storyboard */,
+				F6AC442226F25BCE008A8ED8 /* GoogleService-Info.plist */,
 				F6AC441A26F24C01008A8ED8 /* Info.plist */,
 			);
 			path = DevHouseAdmin;
@@ -117,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6AC440326F24BE5008A8ED8 /* Build configuration list for PBXNativeTarget "DevHouse" */;
 			buildPhases = (
+				4D9377EEC9CF862C41D3CD24 /* [CP] Check Pods Manifest.lock */,
 				F6AC43EB26F24BE4008A8ED8 /* Sources */,
 				F6AC43EC26F24BE4008A8ED8 /* Frameworks */,
 				F6AC43ED26F24BE4008A8ED8 /* Resources */,
+				F45E4E0959E3F6DB4BEFBAF2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6AC441B26F24C01008A8ED8 /* Build configuration list for PBXNativeTarget "DevHouseAdmin" */;
 			buildPhases = (
+				560E20C338DCB4819BF86A89 /* [CP] Check Pods Manifest.lock */,
 				F6AC440626F24BFD008A8ED8 /* Sources */,
 				F6AC440726F24BFD008A8ED8 /* Frameworks */,
 				F6AC440826F24BFD008A8ED8 /* Resources */,
+				04584786F80473CF02025E8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -190,6 +238,7 @@
 			files = (
 				F6AC43FF26F24BE5008A8ED8 /* LaunchScreen.storyboard in Resources */,
 				F6AC43FC26F24BE5008A8ED8 /* Assets.xcassets in Resources */,
+				F6AC442126F25A3D008A8ED8 /* GoogleService-Info.plist in Resources */,
 				F6AC43FA26F24BE4008A8ED8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,10 +250,92 @@
 				F6AC441926F24C01008A8ED8 /* LaunchScreen.storyboard in Resources */,
 				F6AC441F26F24C1E008A8ED8 /* Assets.xcassets in Resources */,
 				F6AC441426F24BFD008A8ED8 /* Main.storyboard in Resources */,
+				F6AC442326F25BCE008A8ED8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04584786F80473CF02025E8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DevHouseAdmin/Pods-DevHouseAdmin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DevHouseAdmin/Pods-DevHouseAdmin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DevHouseAdmin/Pods-DevHouseAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D9377EEC9CF862C41D3CD24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DevHouse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		560E20C338DCB4819BF86A89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DevHouseAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F45E4E0959E3F6DB4BEFBAF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DevHouse/Pods-DevHouse-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DevHouse/Pods-DevHouse-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DevHouse/Pods-DevHouse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F6AC43EB26F24BE4008A8ED8 /* Sources */ = {
@@ -212,6 +343,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6AC43F726F24BE4008A8ED8 /* ViewController.swift in Sources */,
+				F6AC442726F2FA40008A8ED8 /* FirstoreService.swift in Sources */,
+				F6AC442526F2EEE0008A8ED8 /* CategoryModel.swift in Sources */,
 				F6AC43F326F24BE4008A8ED8 /* AppDelegate.swift in Sources */,
 				F6AC43F526F24BE4008A8ED8 /* SceneDelegate.swift in Sources */,
 			);
@@ -383,6 +516,7 @@
 		};
 		F6AC440426F24BE5008A8ED8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FE0AB736E5A6852B24283C0 /* Pods-DevHouse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -392,7 +526,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sarveshpatel.DevHouse;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devhouse.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -401,6 +535,7 @@
 		};
 		F6AC440526F24BE5008A8ED8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BD4CD68AE552A690FF850E2 /* Pods-DevHouse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -410,7 +545,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sarveshpatel.DevHouse;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devhouse.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -419,6 +554,7 @@
 		};
 		F6AC441C26F24C01008A8ED8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D7221344C043AE75794C0B5 /* Pods-DevHouseAdmin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -428,7 +564,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sarveshpatel.DevHouseAdmin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devhouseadmin.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -437,6 +573,7 @@
 		};
 		F6AC441D26F24C01008A8ED8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D0FF4E1DB87A97601167F98 /* Pods-DevHouseAdmin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,7 +583,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sarveshpatel.DevHouseAdmin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devhouseadmin.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
