@@ -6,18 +6,42 @@
 //
 
 import Foundation
-import Firebase
+import FirebaseFirestore
+
 class FireStoreService{
     static let shared = FireStoreService()
+    var listener: ListenerRegistration!
     private var db: Firestore!
     private var CATEGORY_COLLECTION = "category"
     private var FIRST_DOCUMENT = "4FYRteXptltpGhGqJVis"
-    func getDocument(handler: @escaping (_ documentCompletion: CategoryModel) -> ()) {
+    func setCategoriesListner(_ handler: @escaping (_ category: CategoryModel) -> ()) {
         db = Firestore.firestore()
-        let docRef = db.collection(CATEGORY_COLLECTION).document(FIRST_DOCUMENT)
-        docRef.getDocument { snap, error in
-            guard let data = snap?.data() else{return}
-            handler(CategoryModel.init(data: data))
-        }
+        listener = db.collection("category").addSnapshotListener({ snapshot, error in
+            if let e = error{
+                print("\(e.localizedDescription)")
+            }
+            snapshot?.documentChanges.forEach({ change in
+                let data = change.document.data()
+                let category = CategoryModel.init(data: data)
+                handler(category)
+                switch change.type{
+                case .added:
+                    //HomeVC().onDocumentAdded(change: change, category: category)
+                print("added new documents")
+                case .modified:
+                    self.onDocumentModified()
+                case .removed:
+                    self.onDocumentRemoved()
+                }
+            })
+        })
+        
+    }
+    func onDocumentModified() {
+        
+    }
+    
+    func onDocumentRemoved() {
+        
     }
 }
